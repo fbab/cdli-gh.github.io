@@ -13,3 +13,6 @@ To get a quick overview of markdown syntax and the styling available for this do
 
 
 {% include links.html %}
+
+
+Instructions on how to use this theme: http://idratherbewriting.com/documentation-theme-jekyll/
