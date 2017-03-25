@@ -3,9 +3,7 @@
 topnav:
 - title: Topnav
   items:
-   - title: News
-      url: /news
-   - title: CDLI
+     - title: CDLI
      external_url: http://cdli.ucla.edu
 
 
