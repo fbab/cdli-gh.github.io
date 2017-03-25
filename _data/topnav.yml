@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-     - title: CDLI
-     external_url: http://cdli.ucla.edu
+    - title: CDLI
+    external_url: http://cdli.ucla.edu
 
 
 #Topnav dropdowns
