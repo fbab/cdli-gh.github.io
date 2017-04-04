@@ -103,3 +103,10 @@ description: "This site is the complete documentation for the CDLI Software stor
 
 # needed for sitemap.xml file only
 url: cdli-ucla.github.io
+
+
+# Analytics
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : "UA-96814939-1"
