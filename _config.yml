@@ -98,7 +98,7 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "This site is the complete documentation for the CDLI Software stored on the CDLI-UCLA Github account. "
+description: "Complete documentation for the CDLI Software and data."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
