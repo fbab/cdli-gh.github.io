@@ -1,18 +1,13 @@
 ---
-title: Getting started with CDLI Software Documentation
-keywords: help doc cdli
-tags: [getting_started]
-sidebar: mydoc_sidebar
+title: Getting started with the CDLI Software Documentation
+keywords:
+tags:
+sidebar: home_sidebar
 permalink: index.html
-summary: These brief instructions will help you get a sense of what is contained in these docs and how to use them.
+summary:
 ---
-
 ## CDLI Software Documentation
-
-To get a quick overview of markdown syntax and the styling available for this documentation setup, checkout 
-
-
-{% include links.html %}
+Use the menu at the left to navigate the documentation. A search bar is available at the top right.
 
 
-Instructions on how to use this theme: http://idratherbewriting.com/documentation-theme-jekyll/
+*Émilie Pagé-Perron*

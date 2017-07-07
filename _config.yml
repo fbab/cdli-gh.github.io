@@ -69,39 +69,16 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      tooltip: true
-
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: home_sidebar
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
 - home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
 
 description: "Complete documentation for the CDLI Software and data."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: cdli-ucla.github.io
+url: cdli-gh.github.io
 
 google_analytics: UA-96814939-1
