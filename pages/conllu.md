@@ -48,7 +48,7 @@ Notes: It might be best to reduce the ids to the actual division and process the
 - DEPS: Enhanced dependency graph in the form of a list of head-deprel pairs.  
 - MISC: Any other annotation.  
 
-HEAD, DEPREL, and DEPS will be used only when we get to syntactic parsing and we should be able to use the Bratt GUI editor for this task. (http://brat.nlplab.org/)
+HEAD, DEPREL, and DEPS will be used only when we get to syntactic parsing and we should be able to use the Brat GUI editor for this task. (http://brat.nlplab.org/)
 
 In the examples below, the UPOSTAG field is completed using UD and XPOSTAG with ORACC/ETCSL/PENN so we can compare the different tag sets available.
 
