@@ -14,5 +14,7 @@ The documentation is currently under developpement so please bear with us and se
 
 You can navigate this documentation using the menu at the left, there is also a search bar is available at the top right.
 
+To contibute, first read the [quick edit instructions "Intro for editors"](https://cdli-gh.github.io/edit-intro.html). 
+
 
 *Émilie Pagé-Perron*
