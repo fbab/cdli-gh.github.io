@@ -30,6 +30,6 @@ entries:
     - title: Doc. editors instructions
       output: web, pdf
       folderitems:
-        - title: Getting started
-          url: /edit-intro.html
-          output: web, pdf
+      - title: Getting started
+        url: /edit-intro.html
+        output: web, pdf
