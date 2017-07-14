@@ -126,7 +126,6 @@ WORK IN PROGRESS
 	3	ba-hul	hul	VERB	V/V/VB	X	_	_	_	_
 
 
-
 ## P427604
 <http://cdli.ucla.edu/P427604>
 
@@ -277,8 +276,8 @@ _	_	_	_	_
 	1	gaba-ri	gaba-ri	NOUN	N/N/NN	_	_	_	_	_
 
 
-	## P102359
-	<http://cdli.ucla.edu/P102359>
+## P102359
+<http://cdli.ucla.edu/P102359>
 
 	# newdoc id = P102359
 	# newsurface id = obverse
