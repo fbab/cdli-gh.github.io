@@ -1,12 +1,11 @@
 ---
-title: Getting started with the CDLI Documentation
-keywords:
+title: Getting started with the MTAAC/CDLI Documentation
 tags:
 sidebar: home_sidebar
 permalink: index.html
 summary:
 ---
-## CDLI Documentation
+## MTAAC/CDLI Documentation
 This documentation site was created as part of the [MTAAC](https://cdli-gh.github.io/mtaac/) project to document its research process, tool development and to supplement the code and data deliverables with extensive explanations and walkthrough to encourage our colleagues to resuse our work. 
 
 The documentation is currently under development so please bear with us and send us an e-mail if you have questions. 
