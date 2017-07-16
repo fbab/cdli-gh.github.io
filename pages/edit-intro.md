@@ -16,7 +16,7 @@ To add a new documentation page to this site:
 4. Wait two minutes and check that all is in order  
 
 ## YAML header
-For your doc to work properly, it must have a YAML header. You can check out the other docs to use as a model or copy and past this block at the head of your file:  
+For your doc to work properly, it must have a YAML header. You can check out the other docs to use as a model or copy and paste this block at the head of your file:  
 
 ```md
 ---
