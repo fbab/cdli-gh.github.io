@@ -27,7 +27,7 @@ Any information stored in this folder should end up either being archived or por
 
 │&nbsp;&nbsp;&nbsp;└── ORACC & ETCSL material  
 
-&nbsp;&nbsp;*All of the material, code and data, of previous experiments and work on the morphology of Sumerian, mailny ORACC ETCSRI and ETCSL.*
+&nbsp;&nbsp;*All of the material, code and data, of previous experiments and work on the morphology of Sumerian, mainly ORACC ETCSRI and ETCSL.*
 
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ETCSL with bound attribute from J. Eberling  
 
