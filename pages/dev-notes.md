@@ -59,7 +59,7 @@ Any information stored in this folder should end up either being archived or por
 │&nbsp;&nbsp;&nbsp;└── 2018 09 CSMS  
 ├── Bibliography  
 
-&nbsp;&nbsp;*At this time, this folder contains a subfolder with some of the article in the bibliography and a document with more information about how the bibliography is organized. The list of titles lives on Zotero at this url: https://www.zotero.org/groups/578266/mtaac/items; Add any titles necessary as you go and put a copy of the file in the folder to share.*
+&nbsp;&nbsp;*At this time, this folder contains a subfolder with some of the article in the bibliography and a document with more information about how the bibliography is organized. The list of titles lives on Zotero at this url: https://www.zotero.org/groups/578266/mtaac/items; Add any titles necessary as you go and put a copy of the file in the folder to share. Tags should be applied uniformly and all bibliographic entries cleaned.*
 
 │&nbsp;&nbsp;&nbsp;└── files  
 ├── Infrastructure  
@@ -74,7 +74,7 @@ Any information stored in this folder should end up either being archived or por
 
 └── Pre-processing  
 
-&nbsp;&nbsp;*Anything related to pre-processing (homogenization of the corpus pre-annotation and tools to work with the unannotated textual information), including sign and word tokens lists, the lexicon, preferred readings, etc. Tags should be applied uniformly and all bibliographic entries cleaned.*
+&nbsp;&nbsp;*Anything related to pre-processing (homogenization of the corpus pre-annotation and tools to work with the unannotated textual information), including sign and word tokens lists, the lexicon, preferred readings, etc.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;├── archives  
 &nbsp;&nbsp;&nbsp;&nbsp;├── ATF Checker  
