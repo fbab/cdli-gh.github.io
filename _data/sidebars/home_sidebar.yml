@@ -19,7 +19,7 @@ entries:
         output: web, pdf
       - title: Morphological tagsets
         url: /morph-tags.html
-	output: web, pdf
+        output: web, pdf
       - title: Annotations
         url: /annotations.html
         output: web, pdf
