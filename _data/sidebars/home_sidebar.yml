@@ -6,6 +6,27 @@ entries:
   version: 0.1
   folders:
 
+    - title: Research and development notes
+      output: web, pdf
+      folderitems:
+			- title: Research and dev notes intro
+				url: /mtaac-folder.html
+				output: web, pdf
+			- title: MTAAC project folder
+				url: /dev-notes.html
+				output: web, pdf
+			- title: Part-of-Speech tagsets
+        url: /pos.html
+        output: web, pdf
+			- title: Morphological tagsets
+	      url: /morph-tags.html
+	      output: web, pdf
+			- title: Annotations
+        url: /annotations.html
+        output: web, pdf
+      - title: CoNLL-U test
+        url: /conllu.html
+        output: web, pdf
     - title: Data
       output: web, pdf
       folderitems:
@@ -14,18 +35,6 @@ entries:
         output: web, pdf
       - title: Catalogue fields
         url: /data-cat.html
-        output: web, pdf
-    - title: Development notes
-      output: web, pdf
-      folderitems:
-      - title: Part-of-Speech tagsets
-        url: /pos.html
-        output: web, pdf
-      - title: Annotations
-        url: /annotations.html
-        output: web, pdf
-      - title: CoNLL-U test
-        url: /conllu.html
         output: web, pdf
     - title: Doc. editors instructions
       output: web, pdf
