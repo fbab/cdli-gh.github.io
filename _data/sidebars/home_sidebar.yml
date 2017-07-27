@@ -11,9 +11,6 @@ entries:
       - title: Research and dev notes intro
         url: /dev-notes.html
         output: web, pdf
-      - title: MTAAC project folder
-        url: /mtaac-folder.html
-        output: web, pdf
       - title: Part-of-Speech tagsets
         url: /pos.html
         output: web, pdf
