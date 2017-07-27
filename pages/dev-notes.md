@@ -39,7 +39,7 @@ Any information stored in this folder should end up either being archived or por
 
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── GATE ETCSL repository snapshot from A. Roberts  
 
-&nbsp;&nbsp;*This folder contains the full GATE material including documentation on the morphological tags.  *
+&nbsp;&nbsp;*This folder contains the full GATE material including documentation on the morphological tags.*
 
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Gate experiment by M. Sukhareva  
 
