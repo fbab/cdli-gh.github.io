@@ -23,15 +23,15 @@ entries:
       - title: CoNLL-U test
         url: /conllu.html
         output: web, pdf
-    - title: Data
-      output: web, pdf
-      folderitems:
-      - title: Encoding format (ATF)
-        url: /data-atf.html
-        output: web, pdf
-      - title: Catalogue fields
-        url: /data-cat.html
-        output: web, pdf
+#    - title: Data
+#      output: web, pdf
+#      folderitems:
+#      - title: Encoding format (ATF)
+#        url: /data-atf.html
+#        output: web, pdf
+#      - title: Catalogue fields
+#        url: /data-cat.html
+#        output: web, pdf
     - title: Doc. editors instructions
       output: web, pdf
       folderitems:
