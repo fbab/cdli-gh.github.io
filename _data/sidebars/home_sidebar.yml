@@ -18,7 +18,7 @@ entries:
         url: /pos.html
         output: web, pdf
       - title: Morphological tagsets
-	url: /morph-tags.html
+        url: /morph-tags.html
 	output: web, pdf
       - title: Annotations
         url: /annotations.html
