@@ -1,11 +1,16 @@
 ---
-title: MTAAC project folder
+title: Research and dev notes intro
 keywords:
 tags:
 sidebar: home_sidebar
-permalink: /mtaac-folder.html
+permalink: /dev-notes.html
 summary:
 ---
+## Notes
+
+The documents in this section will evolve into a full fledged documentation site during the course of the project. In the meantime, these notes will acompagny the research process. For an overview of the material at disposal, also look at the MTAAC research folder. (See below)
+
+
 ## MTAAC project folder
 
 The tree below is from a snapshot taken on 2017/07/27, it shows the contents of the [MTAAC Google docs project folder](https://drive.google.com/drive/folders/0B8-deXARunnhU2FHVzVqLXA4N3M). It is currently restricted to members of the project.
