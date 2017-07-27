@@ -9,10 +9,10 @@ entries:
       output: web, pdf
       folderitems:
       - title: Research and dev notes intro
-        url: /mtaac-folder.html
+        url: /dev-notes.html
         output: web, pdf
       - title: MTAAC project folder
-        url: /dev-notes.html
+        url: /mtaac-folder.html
         output: web, pdf
       - title: Part-of-Speech tagsets
         url: /pos.html
