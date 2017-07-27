@@ -94,12 +94,14 @@ ETCSL: <http://etcsl.orinst.ox.ac.uk/edition2/etcslhelp.php#propernouns>
 *Lands and other geographical entities without their own tag.  
 **Note the different usages of the ON tag.
 
-## table of ORACC vs ETCSL mophological tags
+## Morphological tags
+
+### ORACC vs ETCSL mophological tags
 
 ...
 
 
-## ETCSL morphological tags description
+### ETCSL morphological tags description
 - Creating Tools for Morphological Analysis of Sumerian [Link to the pdf](https://gate.ac.uk/sale/lrec2006/etcsl/etcsl-paper.pdf)
 
 
