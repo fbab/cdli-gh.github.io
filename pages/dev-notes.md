@@ -1,5 +1,5 @@
 ---
-title: Research and dev notes intro
+title: Research and development notes introductrion
 keywords:
 tags:
 sidebar: home_sidebar
