@@ -11,17 +11,11 @@ entries:
       - title: Research and dev notes intro
         url: /dev-notes.html
         output: web, pdf
-      - title: Part-of-Speech tagsets
-        url: /pos.html
-        output: web, pdf
-      - title: Morphological tagsets
-        url: /morph-tags.html
+      - title: Tagsets
+        url: /tags.html
         output: web, pdf
       - title: Annotations
         url: /annotations.html
-        output: web, pdf
-      - title: CoNLL-U test
-        url: /conllu.html
         output: web, pdf
 #    - title: Data
 #      output: web, pdf
