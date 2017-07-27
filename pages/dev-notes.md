@@ -8,7 +8,7 @@ summary:
 ---
 ## Notes
 
-The documents in this section will evolve into a full fledged documentation site during the course of the project. In the meantime, these notes will acompagny the research process. For an overview of the material at disposal, also look at the MTAAC research folder. (See below)
+The documents in this section will evolve into a full fledged documentation site during the course of the project. In the meantime, these notes will accompany the research process. For an overview of the material at disposal, also look at the MTAAC research folder. (See below)
 
 
 ## MTAAC project folder
