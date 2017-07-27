@@ -97,9 +97,7 @@ ETCSL: <http://etcsl.orinst.ox.ac.uk/edition2/etcslhelp.php#propernouns>
 ## Morphological tags
 
 ### ORACC vs ETCSL mophological tags
-
-...
-
+[Morphology chart under developpement](https://docs.google.com/spreadsheets/d/1y0_y9HDQNwH0VqDCjjYuUpFsugw4GEybu6Pu01I_D9c/edit#gid=0)
 
 ### ETCSL morphological tags description
 - Creating Tools for Morphological Analysis of Sumerian [Link to the pdf](https://gate.ac.uk/sale/lrec2006/etcsl/etcsl-paper.pdf)
