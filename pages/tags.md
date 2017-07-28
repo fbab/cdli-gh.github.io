@@ -149,15 +149,18 @@ or
 
 
 The morphological tags are explicit and give information not only about the morpheme at hand but hints at the construction of the whole verbal chain. Eg:
+
 morpheme|tag|meaning
---------------------
+----|----|-----
 enden|1-PL-A|first person plural agent suffix
 enden|1-PL-S|first person plural subject suffix (df)
 enden|1-PL|first person plural suffix in plural transitive preterite verbal forms
 
+
 Or give indications about subtleties in meaning
+
 morpheme|tag|meaning
---------------------
+----|----|-----
 e|DAT-NH|non-human dative case-marker
 e|L3-NH|non-human locative3 case-marker
 
