@@ -99,6 +99,7 @@ ETCSL: <http://etcsl.orinst.ox.ac.uk/edition2/etcslhelp.php#propernouns>
 ### Mophological tags comparative chart
 [Morphology chart under developpement](https://docs.google.com/spreadsheets/d/1y0_y9HDQNwH0VqDCjjYuUpFsugw4GEybu6Pu01I_D9c/edit#gid=0)
 
+The ablative's function of distributive is not distinguished in the two sets.
 
 ### ETCSL Morphological tags
 The ETCSL morphological tags mostly give a normalization that can then be treated with rules to disambiguate meaning. Exception is made for the verbal bases which are explicitely identified (aspect, plural, etc).
