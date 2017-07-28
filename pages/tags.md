@@ -96,12 +96,14 @@ ETCSL: <http://etcsl.orinst.ox.ac.uk/edition2/etcslhelp.php#propernouns>
 
 ## Morphological tags
 
-### ORACC vs ETCSL mophological tags
+### Mophological tags comparative chart
 [Morphology chart under developpement](https://docs.google.com/spreadsheets/d/1y0_y9HDQNwH0VqDCjjYuUpFsugw4GEybu6Pu01I_D9c/edit#gid=0)
 
-### ETCSL morphological tags description
-- Creating Tools for Morphological Analysis of Sumerian [Link to the pdf](https://gate.ac.uk/sale/lrec2006/etcsl/etcsl-paper.pdf)
 
+### ETCSL Morphological tags
+The ETCSL morphological tags mostly give a normalization that can then be treated with rules to disambiguate meaning. Exception is made for the verbal bases which are explicitely identified (aspect, plural, etc).
+
+- Creating Tools for Morphological Analysis of Sumerian [Link to the pdf](https://gate.ac.uk/sale/lrec2006/etcsl/etcsl-paper.pdf)
 
 Some examples:
 
@@ -114,7 +116,49 @@ V|mu.ra.I.n:L|e-ri-in-bar-re-ec
 V|ga.V.n.ci:L|ga-an-ci-gen
 V|ha.ba.NI.n:L|ha-ba-ni-in-dug4
 
-...
 
+
+### ETCSRI Morphological tags
+
+For a full description of the morphological annotations system, see the ETCSRI website. URL
+
+The ETCSRI morphological tagging is very explicitly and consist in three different attributes.
+1. The morpheme column based on logical table of possible suites of morphemes
+2. The usage of the morphemes
+3. the normalized form of the text
+
+Attributes 2 and 3 are used in our conll-u annotation in a hybrid attribute eg:
+> iri-kug-ga-ka-ni
+
+Original
+> N1=Irikug.N5=ak.N3=ani.N5=ø
+> N1=NAME.N5=GEN.N3=3-SG-H-POSS.N5=ABS
+> Irikug.ak.ani.ø
+
+MTAAC modified version
+> N1=Iriku=NAME.ak=GEN.ani=3-SG-H-POSS.ø=ABS
+
+Missing affixes are added in the morphology eg. nin-a-ni becomes
+> N1=nin.N3=ani.N5=ra
+> N1=STEM.N3=3-SG-H-POSS.N5=DAT-H
+> nin.ani.ra
+
+or
+
+> nin=STEM.ani=3-SG-H-POSS.ra=DAT
+
+
+The morphological tags are explicit and give information not only about the morpheme at hand but hints at the construction of the whole verbal chain. Eg:
+morpheme|tag|meaning
+--------------------
+enden|1-PL-A|first person plural agent suffix
+enden|1-PL-S|first person plural subject suffix (df)
+enden|1-PL|first person plural suffix in plural transitive preterite verbal forms
+
+Or give indications about subtleties in meaning
+morpheme|tag|meaning
+--------------------
+e|DAT-NH|non-human dative case-marker
+e|L3-NH|non-human locative3 case-marker
 
 *Émilie Pagé-Perron*
