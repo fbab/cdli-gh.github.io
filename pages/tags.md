@@ -116,6 +116,7 @@ V|mu.ra.I.n:L|e-ri-in-bar-re-ec
 V|ga.V.n.ci:L|ga-an-ci-gen
 V|ha.ba.NI.n:L|ha-ba-ni-in-dug4
 
+The tags seems to only appear on words that display affixes (the absolutive is not marked).
 
 
 ### ETCSRI Morphological tags
