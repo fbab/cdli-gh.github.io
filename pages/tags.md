@@ -131,17 +131,17 @@ Attributes 2 and 3 are used in our conll-u annotation in a hybrid attribute eg:
 > iri-kug-ga-ka-ni
 
 Original
-> N1=Irikug.N5=ak.N3=ani.N5=ø
-> N1=NAME.N5=GEN.N3=3-SG-H-POSS.N5=ABS
-> Irikug.ak.ani.ø
+> N1=Irikug.N5=ak.N3=ani.N5=ø  
+> N1=NAME.N5=GEN.N3=3-SG-H-POSS.N5=ABS  
+> Irikug.ak.ani.ø  
 
 MTAAC modified version
 > N1=Iriku=NAME.ak=GEN.ani=3-SG-H-POSS.ø=ABS
 
 Missing affixes are added in the morphology eg. nin-a-ni becomes
-> N1=nin.N3=ani.N5=ra
-> N1=STEM.N3=3-SG-H-POSS.N5=DAT-H
-> nin.ani.ra
+> N1=nin.N3=ani.N5=ra  
+> N1=STEM.N3=3-SG-H-POSS.N5=DAT-H  
+> nin.ani.ra  
 
 or
 
