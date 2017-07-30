@@ -138,7 +138,7 @@ Original
 > Irikug.ak.ani.ø  
 
 MTAAC modified version
-> N1=Iriku=NAME.ak=GEN.ani=3-SG-H-POSS.ø=ABS
+> Iriku=NAME.ak=GEN.ani=3-SG-H-POSS.ø=ABS
 
 Missing affixes are added in the morphology eg. nin-a-ni becomes
 > N1=nin.N3=ani.N5=ra  
