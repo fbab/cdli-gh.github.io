@@ -108,7 +108,7 @@ The ETCSL morphological tags mostly give a normalization that can then be treate
 
 Some examples:
 
-POS|form|tags
+POS|form|normalized
 ----|----|-----
 N|kur-kur-ra-gin7|L,ak.gin
 N|cag4-gada-la2-be2-e-ne|L,bi.ene
