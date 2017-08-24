@@ -83,12 +83,12 @@ DEPS: will not be used at this time
 
 
 ### Editors
-Morphological annotations are added to the conll file manually using any plain text editor. We recommend Atom <https://atom.io/> because it can be used on any platform. Other plain text editors will do the job, such as Sublime <http://www.sublimetext.com/2>, Text Wrangler <https://www.barebones.com/products/textwrangler/>, Notepad++ <https://notepad-plus-plus.org/> and the like.
+Morphological annotations are added to the conll file manually using any plain text editor. We recommend Atom <https://atom.io/> because it can be used on any platform. Other plain text editors will do the job, such as Sublime <http://www.sublimetext.com/2>, Text Wrangler <https://www.barebones.com/products/textwrangler/>, Notepad++ <https://notepad-plus-plus.org/> and the like.  
 
-Syntax annotations can be added manually in the conll file or using the Brat interface. We have a developpement brat server up at <http://cdli-dev.org/brat/>.
+Syntax annotations can be added manually in the conll file or using the Brat interface. We have a developpement brat server up at <http://cdli-dev.org/brat/>.  
 
-Brat website: <http://brat.nlplab.org/examples.html>
-another dependency annotation tool: UD Annotatrix <https://github.com/jonorthwash/ud-annotatrix>  
+Brat website: <http://brat.nlplab.org/examples.html>  
+Another dependency annotation tool: UD Annotatrix <https://github.com/jonorthwash/ud-annotatrix>    
 
 
 ### Morphological annotation example
