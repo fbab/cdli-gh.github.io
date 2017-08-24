@@ -7,27 +7,32 @@ permalink: /annotations.html
 summary:
 ---
 
-## Internal annotation scheme
-Must be... :  
-- single file  
-- either human-readable or with good tool support  
-- reversible and mergeable  
+## Gold standard annotation
+
+### Workflow
+
+1. Export raw ATF from the CDLI  
+Manually export ATF of texts to annotate from the CDLI database. This can be done by doing a search at <http://cdli.ucla.edu/search> and clicking on "download" after the results appear.
+
+2. Convert texts to pseudo-conll for morphological annotation  
+Use the Pyhton script X to prepare a tokenized and conll-style version of the textual information to facilitate morphological annotation.
+
+3. Morphological annotation  
+Manually annotate morphology and subject, direct and indirect object dependencies in the files. (See below for more details)
+
+4. Conversion to full annotations set in CoNLL-U Format  
+Using the X Python script, convert the new annotations to the fuller version that will be used by subsequent processes.
+
+5. Conversion to Brat standoff
+Use the CoNLL-U to Brat standoff converter to prepare data for syntactic annotations using the Brat editor.
+
+6. Syntax annotation
+Manual annotation of syntax using the Brat interface
 
 
-## First candidate: CoNLL-U
-<http://universaldependencies.org/format.html>  
-Text segmentation has to be adapted.  
+### CoNLL-like and CoNLL-U formats
 
-### Editors
-- Brat <http://brat.nlplab.org/examples.html>  
-- UD Annotatrix <https://github.com/jonorthwash/ud-annotatrix>  
-
-### Tools
-- <https://github.com/UniversalDependencies/tools>  
-- <https://github.com/EmilStenstrom/conllu/>  
-
-## CoNLL-U preliminary testing
-
+Conll-U format information: <http://universaldependencies.org/format.html>  
 CoNLL-U implementation based on: <http://universaldependencies.org/format.html>
 
 Original CoNLL-U Syntax calls for such structure marking:
@@ -38,25 +43,22 @@ Original CoNLL-U Syntax calls for such structure marking:
 	# text = Slovenská ústava: pro i proti
 	# text_en = Slovak constitution: pros and cons
 
-In the Ur III administrative corpus, sentences span many lines and the structure of documents is complex and is divided into surfaces and sections, based on the medium of the text. The ConLL-U syntax is thus adapted as such:
+In the Ur III administrative corpus, sentences span many lines and the structure of documents is complex and is divided into surfaces and sections, based on the medium of the text.
 
-	# newdoc id = P101049
-	# newsurface id = P101049-obverse
-	# newsection id = P101049-obverse-column-001
-	# line_id = P101049-obverse-column-001-0001
-	# text = 2(disz) ma2 1(gesz2) gur 2(ban2)-ta ma2-lah5-bi i3-ib2-u3
-	# text_en = 2 barges of 60 gur (capacity), 2 ban2 (per day) each, their skippers piloting
+The ConLL-U syntax is thus adapted in such manner:
 
-Notes: It might be best to reduce the ids to the actual division and process the preceding divisions to get their ids if needed, to avoid repetition? Eg:
+- In a comment line above the textual information, the text id must be mentionned, eg: 
 
-	# newdoc id = P101049
-	# newsurface id = obverse
-	# newsection id = column 1
-	# line_id = 1
-	# text = 2(disz) ma2 1(gesz2) gur 2(ban2)-ta ma2-lah5-bi i3-ib2-u3
-	# text_en = 2 barges of 60 gur (capacity), 2 ban2 (per day) each, their skippers piloting
+	# newdoc id = P653433
 
-### ConLL-U Fields  
+- The ID field contains all information about the surface, column, line and token, eg : o.col1.1.1.;  o.1.1 if there is no column. Only the column number is optional.
+
+- Blank lines are used to separate clearly different sections of the texts but usually one text will be considered as one long sentence.
+
+### CoNLL-U Fields  
+#### Original CoNLL-U Fields  
+ConLL-U fields description based on the Universal Dependencies website
+
 - ID: Word index, integer starting at 1 for each new sentence; may be a range for multiword tokens; may be a decimal number for empty nodes.  
 - FORM: Word form or punctuation symbol.  
 - LEMMA: Lemma or stem of word form.  
@@ -68,11 +70,37 @@ Notes: It might be best to reduce the ids to the actual division and process the
 - DEPS: Enhanced dependency graph in the form of a list of head-deprel pairs.  
 - MISC: Any other annotation.  
 
-HEAD, DEPREL, and DEPS will be used only when we get to syntactic parsing and we should be able to use the Brat GUI editor for this task. (http://brat.nlplab.org/)
+#### Conll-like fields for annotation
+	# ID	FORM	SEGM	XPOSTAG	HEAD	DEPREL	MISC
+ID: o.col1.1.1
+FROM: token from text, atf transliteration
+SEGM: normalized form of the token, inclusing part of speech and named entity tag (GN.ABL)
+XPOSTAG: ORACC ETCSRI morphological tags based on the segmentation
+HEAD: id of token that is the verb for which this token is a subject of object
+DEPREL: relationship with verb as subject, direct object or indirect object (nsubj/dobj/iobj)
+MISC: semantic role of this word eg. "seller"
 
-In the examples below, the UPOSTAG field is completed using UD and XPOSTAG with ORACC/ETCSL/PENN so we can compare the different tag sets available.
+#### CoNLL-U fields with processed data
+	#ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
 
-The FEATS field displays tags as:  UD / ETCSRI. ETCSL tags will be added when available
+LEMMA:
+UPOSTAG:
+FEATS:
+DEPS: 
+
+
+### Editors
+Morphological annotations are added to the conll file manually using any plain text editor. We recommend Atom <https://atom.io/> because it can be used on any platform. Other plain text editors will do the job, such as Sublime <http://www.sublimetext.com/2>, Text Wrangler <https://www.barebones.com/products/textwrangler/>, Notepad++ <https://notepad-plus-plus.org/> and the like.
+
+Syntax annotations can be added manually in the conll file or using the Brat interface. We have a developpement brat server up at <http://cdli-dev.org/brat/>.
+
+Brat website: <http://brat.nlplab.org/examples.html>
+another dependency annotation tool: UD Annotatrix <https://github.com/jonorthwash/ud-annotatrix>  
+
+
+### Morphological annotation example
+
+## Automated annotation workflow
 
 
 *Émilie Pagé-Perron*
