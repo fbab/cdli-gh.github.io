@@ -50,10 +50,7 @@ The ConLL-U syntax is thus adapted in such manner:
 - In a comment line above the textual information, the text id must be mentionned, eg: 
 
 	# newdoc id = P653433
-
-- The ID field contains all information about the surface, column, line and token, eg : o.col1.1.1.;  o.1.1 if there is no column. Only the column number is optional.
-
-- Blank lines are used to separate clearly different sections of the texts but usually one text will be considered as one long sentence.
+ - Blank lines are used to separate clearly different sections of the texts but usually one text will be considered as one long sentence.
 
 ### CoNLL-U Fields  
 #### Original CoNLL-U Fields  
@@ -72,21 +69,20 @@ ConLL-U fields description based on the Universal Dependencies website
 
 #### Conll-like fields for annotation
 	# ID	FORM	SEGM	XPOSTAG	HEAD	DEPREL	MISC
-ID: o.col1.1.1
+ID: all information about the surface, column, line and token (o.col1.1.1;  o.1.1 if there is no column) Only the column number is optional.
 FROM: token from text, atf transliteration
-SEGM: normalized form of the token, inclusing part of speech and named entity tag (GN.ABL)
-XPOSTAG: ORACC ETCSRI morphological tags based on the segmentation
+SEGM: normalized form of the token
+XPOSTAG: ORACC ETCSRI morphological tags based on the segmentation and using POS tag or named entity tag instead of "STEM" for the stem (eg.: GN.ABL)
 HEAD: id of token that is the verb for which this token is a subject of object
-DEPREL: relationship with verb as subject, direct object or indirect object (nsubj/dobj/iobj)
+DEPREL: relationship with verb as subject, direct object or indirect object (nsbj/dobj/iobj)
 MISC: semantic role of this word eg. "seller"
 
 #### CoNLL-U fields with processed data
 	#ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
-
-LEMMA:
-UPOSTAG:
-FEATS:
-DEPS: 
+LEMMA: Lemma to which the token should be associated
+UPOSTAG: Universal dependencies part of speech tag, based on a mapping between the ETCRSI POS and the UD POS
+FEATS: Unimorph tags, in order of morpheme appearance
+DEPS: will not be used at this time
 
 
 ### Editors
