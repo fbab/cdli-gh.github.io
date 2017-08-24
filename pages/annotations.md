@@ -32,7 +32,7 @@ Manual annotation of syntax using the Brat interface
 
 ### CoNLL-like and CoNLL-U formats
 
-Conll-U format information: <http://universaldependencies.org/format.html>  
+CoNLL-U format information: <http://universaldependencies.org/format.html>  
 CoNLL-U implementation based on: <http://universaldependencies.org/format.html>
 
 Original CoNLL-U Syntax calls for such structure marking:
@@ -43,14 +43,11 @@ Original CoNLL-U Syntax calls for such structure marking:
 	# text = Slovenská ústava: pro i proti
 	# text_en = Slovak constitution: pros and cons
 
-In the Ur III administrative corpus, sentences span many lines and the structure of documents is complex and is divided into surfaces and sections, based on the medium of the text.
-
-The ConLL-U syntax is thus adapted in such manner:
-
+We adapt this heading information as such :
 - In a comment line above the textual information, the text id must be mentionned, eg: 
-
 	# newdoc id = P653433
- - Blank lines are used to separate clearly different sections of the texts but usually one text will be considered as one long sentence.
+
+In CoNLL-U, blank lines are used to separate sentences. Since our documents are generally considered a sentence, a blank line will generally appear between texts and sometimes rarely inside a text to separate full sentences. 
 
 ### CoNLL-U Fields  
 #### Original CoNLL-U Fields  
@@ -67,7 +64,7 @@ ConLL-U fields description based on the Universal Dependencies website
 - DEPS: Enhanced dependency graph in the form of a list of head-deprel pairs.  
 - MISC: Any other annotation.  
 
-#### Conll-like fields for annotation
+#### MTAAC Conll-like fields for annotation
 	# ID	FORM	SEGM	XPOSTAG	HEAD	DEPREL	MISC
 ID: all information about the surface, column, line and token (o.col1.1.1;  o.1.1 if there is no column) Only the column number is optional.
 FROM: token from text, atf transliteration
@@ -77,7 +74,7 @@ HEAD: id of token that is the verb for which this token is a subject of object
 DEPREL: relationship with verb as subject, direct object or indirect object (nsbj/dobj/iobj)
 MISC: semantic role of this word eg. "seller"
 
-#### CoNLL-U fields with processed data
+#### MTAAC CoNLL-U fields with processed data
 	#ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
 LEMMA: Lemma to which the token should be associated
 UPOSTAG: Universal dependencies part of speech tag, based on a mapping between the ETCRSI POS and the UD POS
@@ -96,7 +93,11 @@ another dependency annotation tool: UD Annotatrix <https://github.com/jonorthwas
 
 ### Morphological annotation example
 
+
+
 ## Automated annotation workflow
+
+
 
 
 *Émilie Pagé-Perron*
