@@ -23,10 +23,10 @@ Manually annotate morphology and subject, direct and indirect object dependencie
 4. Conversion to full annotations set in CoNLL-U Format  
 Using the X Python script, convert the new annotations to the fuller version that will be used by subsequent processes.
 
-5. Conversion to Brat standoff
+5. Conversion to Brat standoff  
 Use the CoNLL-U to Brat standoff converter to prepare data for syntactic annotations using the Brat editor.
 
-6. Syntax annotation
+6. Syntax annotation  
 Manual annotation of syntax using the Brat interface
 
 
