@@ -8,7 +8,7 @@ summary:
 ---
 ## Notes
 
-The documents in this section will evolve into a full fledged documentation site during the course of the project. In the meantime, these notes will accompany the research process. For an overview of the material at disposal, also look at the MTAAC research folder. (See below)
+The documents in this section will evolve into a fully-fledged documentation site during the course of the project. In the meantime, these notes will accompany the research process. For an overview of the material available, also look at the MTAAC research folder (see below)
 
 
 ## MTAAC project folder
@@ -29,7 +29,7 @@ Any information stored in this folder should end up either being archived or por
 
 &nbsp;&nbsp;*All of the material, code and data, of previous experiments and work on the morphology of Sumerian, mainly ORACC ETCSRI and ETCSL.*
 
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ETCSL with bound attribute from J. Eberling  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ETCSL with bound attribute from J. Ebeling  
 
 &nbsp;&nbsp;*Copy of the ETCSL corpus in xml format with bound attribute (morphological tags) and tags extracted.*
 
@@ -39,7 +39,7 @@ Any information stored in this folder should end up either being archived or por
 
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── GATE ETCSL repository snapshot from A. Roberts  
 
-&nbsp;&nbsp;*This folder contains the full GATE material including documentation on the morphological tags.*
+&nbsp;&nbsp;*This folder contains the full GATE material, including documentation on the morphological tags.*
 
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Gate experiment by M. Sukhareva  
 
@@ -55,11 +55,11 @@ Any information stored in this folder should end up either being archived or por
 &nbsp;&nbsp;*This folder contains a subfolder for each event we are preparing for. There is also a PPT template to use for presentations.*
 
 │&nbsp;&nbsp;&nbsp;├── 2017 08 DH Network  
-│&nbsp;&nbsp;&nbsp;├── 2017 08 Latech ACL  
+│&nbsp;&nbsp;&nbsp;├── 2017 08 LaTeX ACL  
 │&nbsp;&nbsp;&nbsp;└── 2018 09 CSMS  
 ├── Bibliography  
 
-&nbsp;&nbsp;*At this time, this folder contains a subfolder with some of the article in the bibliography and a document with more information about how the bibliography is organized. The list of titles lives on Zotero at this url: https://www.zotero.org/groups/578266/mtaac/items; Add any titles necessary as you go and put a copy of the file in the folder to share. Tags should be applied uniformly and all bibliographic entries cleaned.*
+&nbsp;&nbsp;*At this time, this folder contains a subfolder with some of the articles in the bibliography and a document with more information about how the bibliography is organized. The list of titles lives on Zotero at this url: https://www.zotero.org/groups/578266/mtaac/items. Add any titles necessary as you go and put a copy of the file in the folder to share. Tags should be applied uniformly and all bibliographical entries cleaned.*
 
 │&nbsp;&nbsp;&nbsp;└── files  
 ├── Infrastructure  
@@ -70,11 +70,11 @@ Any information stored in this folder should end up either being archived or por
 │&nbsp;&nbsp;&nbsp;└── Interface  
 ├── Planning  
 
-&nbsp;&nbsp;*Long term planning material is found here, in particular the full workplan, tasks lists milestones, etc.*
+&nbsp;&nbsp;*Long-term planning material is found here, in particular the full workplan, task lists, milestones, etc.*
 
 └── Pre-processing  
 
-&nbsp;&nbsp;*Anything related to pre-processing (homogenization of the corpus pre-annotation and tools to work with the unannotated textual information), including sign and word tokens lists, the lexicon, preferred readings, etc.*
+&nbsp;&nbsp;*Anything related to pre-processing (homogenization of the corpus pre-annotation and tools to work with the unannotated textual information), including sign and word token lists, the lexicon, preferred readings, etc.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;├── archives  
 &nbsp;&nbsp;&nbsp;&nbsp;├── ATF Checker  
