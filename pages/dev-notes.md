@@ -55,7 +55,7 @@ Any information stored in this folder should end up either being archived or por
 &nbsp;&nbsp;*This folder contains a subfolder for each event we are preparing for. There is also a PPT template to use for presentations.*
 
 │&nbsp;&nbsp;&nbsp;├── 2017 08 DH Network  
-│&nbsp;&nbsp;&nbsp;├── 2017 08 LaTeX ACL  
+│&nbsp;&nbsp;&nbsp;├── 2017 08 Latech ACL  
 │&nbsp;&nbsp;&nbsp;└── 2018 09 CSMS  
 ├── Bibliography  
 
