@@ -97,7 +97,7 @@ ETCSL: <http://etcsl.orinst.ox.ac.uk/edition2/etcslhelp.php#propernouns>
 ## Morphological tags
 
 ### Mophological tags comparative chart
-[Morphology chart under developpement](https://docs.google.com/spreadsheets/d/1y0_y9HDQNwH0VqDCjjYuUpFsugw4GEybu6Pu01I_D9c/edit#gid=0)
+[Morphology chart under development](https://docs.google.com/spreadsheets/d/1y0_y9HDQNwH0VqDCjjYuUpFsugw4GEybu6Pu01I_D9c/edit#gid=0)
 
 The ablative's function of distributive is not distinguished in the two sets.
 
